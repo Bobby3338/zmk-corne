@@ -62,10 +62,10 @@
 
         layer_3 {
             bindings = <
-&kp ESCAPE    &trans    &kp UP     &trans  &trans    &kp PAGE_UP    &trans  &trans  &trans  &trans  &trans  &trans
-&kp LSHIFT  &kp LEFT  &kp DOWN  &kp RIGHT  &trans       &kp HOME    &trans  &trans  &trans  &trans  &trans  &trans
- &kp LCTRL    &trans    &trans     &trans  &trans  &kp PAGE_DOWN    &trans  &trans  &trans  &trans  &trans  &trans
-                                   &trans  &trans         &trans    &trans  &trans  &trans
+&kp ESCAPE    &trans    &kp UP     &trans   &kp K_COPY    &kp PAGE_UP    &trans  &trans  &trans  &trans  &trans  &trans
+&kp LSHIFT  &kp LEFT  &kp DOWN  &kp RIGHT    &kp K_CUT       &kp HOME    &trans  &trans  &trans  &trans  &trans  &trans
+ &kp LCTRL    &trans    &trans     &trans  &kp K_PASTE  &kp PAGE_DOWN    &trans  &trans  &trans  &trans  &trans  &trans
+                                   &trans       &trans         &trans    &trans  &trans  &trans
             >;
         };
 
