@@ -62,10 +62,10 @@
 
         layer_3 {
             bindings = <
-&kp ESCAPE         &trans        &kp UP     &trans        &kp PSCRN    &kp PAGE_UP          &trans        &trans        &trans        &trans        &trans  &kp RC(RA(DEL))
-    &trans       &kp LEFT      &kp DOWN  &kp RIGHT  &kp C_VOLUME_UP       &kp HOME          &trans        &trans        &trans        &trans        &trans           &trans
-    &trans  &kp C_AC_COPY  &kp C_AC_CUT  &kp LC(V)     &kp C_VOL_DN  &kp PAGE_DOWN    &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4       &bt BT_CLR
-                                            &trans           &trans         &trans          &trans        &trans        &trans
+&kp BACKSPACE         &trans        &kp UP  &kp PSCRN       &kp HOME             &trans          &trans        &trans        &trans        &trans        &trans  &kp RC(RA(DEL))
+      &kp ESC       &kp LEFT      &kp DOWN  &kp RIGHT    &kp PAGE_UP    &kp C_VOLUME_UP          &trans        &trans        &trans        &trans        &trans           &trans
+      &kp DEL  &kp C_AC_COPY  &kp C_AC_CUT  &kp LC(V)  &kp PAGE_DOWN  &kp C_VOLUME_DOWN    &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4       &bt BT_CLR
+                                               &trans         &trans             &trans          &trans        &trans        &trans
             >;
         };
     };
